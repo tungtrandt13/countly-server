@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMACTL_STATUS=0
+NUMACTL_STATUS=1
 
 SERVICE_FILE_PATH=$(systemctl status mongod | grep "loaded" | awk -F';' '{print $1}' | awk -F'(' '{print $2}')
 
