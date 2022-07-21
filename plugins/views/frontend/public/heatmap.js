@@ -124,7 +124,7 @@
 
             //TOPBAR IMAGE
             var img = document.createElement('img');
-            img.src = Countly.passed_data.url + "/images/pre-login/countly-logo-dark.svg";
+            img.src = Countly.passed_data.url + "/images/pre-login/boxstudio-logo.png";
             img.setAttribute('class', 'cly-heatmap-logo');
             topbar.appendChild(img);
 
