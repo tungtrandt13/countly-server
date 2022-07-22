@@ -620,7 +620,7 @@ Promise.all([plugins.dbConnection(countlyConfig), plugins.dbConnection("countly_
             type: COUNTLY_TYPE,
             page: COUNTLY_PAGE,
             title: COUNTLY_NAME,
-            favicon: "images/favicon.png",
+            favicon: "images/favicon.ico",
             documentationLink: convertLink(versionInfo.documentationLink, "https://support.count.ly/hc/en-us/categories/360002373332-Knowledge-Base"),
             helpCenterLink: convertLink(versionInfo.helpCenterLink, "https://support.count.ly/hc/en-us"),
             featureRequestLink: convertLink(versionInfo.featureRequestLink, "https://support.count.ly/hc/en-us/community/topics/360001464272-Feature-Requests"),

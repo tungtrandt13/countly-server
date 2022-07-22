@@ -1250,7 +1250,7 @@
         &.check-tick-skin {
             .check-wrapper {
                 .check-label {
-                    color: #2fa732;
+                    color: #f97316;
                     cursor: pointer;
                 }
             }
@@ -2180,17 +2180,17 @@
                 }
                 &:hover {
                     .text {
-                        color: #2fa732;
+                        color: #f97316;
                     }
 
                     .up:before,
                     .down:before {
-                        background-color: #2fa732;
+                        background-color: #f97316;
                     }
 
                     .drop {
                         opacity: 1;
-                        background-color: #2fa732;
+                        background-color: #f97316;
                     }
                 }
 
@@ -2442,7 +2442,7 @@
             cursor: default;
         }
         &:not(.disabled):hover .drop.combo:before {
-            color: #2fa732;
+            color: #f97316;
         }
 
         &.select-aligned-left {
@@ -2474,7 +2474,7 @@
                 border-bottom-right-radius: 0;
                 &.combo:before {
                     content: "\f126";
-                    color: #2fa732;
+                    color: #f97316;
                 }
 
                 &:before {
@@ -2624,7 +2624,7 @@
                 text-overflow: ellipsis;
                 overflow: hidden;
                 white-space: nowrap;
-                color: #2fa732;
+                color: #f97316;
                 font-weight: bold;
                 border-bottom: 1px solid #e6e6e6;
                 font-size: 11px;
@@ -2747,11 +2747,11 @@
             &:hover {
                 .drop {
                     opacity: 1;
-                    background-color: #2fa732;
+                    background-color: #f97316;
                 }
 
                 .text {
-                    color: #2fa732;
+                    color: #f97316;
                 }
             }
         }
@@ -2765,8 +2765,8 @@
             &.green {
                 float: right;
                 width: 150px;
-                background-color: #2fa732;
-                border-color: #2fa732;
+                background-color: #f97316;
+                border-color: #f97316;
                 margin-right: 5px;
                 margin-top: 6px;
                 .text {
@@ -2845,7 +2845,7 @@
     $chevron-color: #bbbbbb; //darken($thead-bg-color-1, 12%);
 
     // link
-    $link-color: #2fa732;
+    $link-color: #f97316;
     $notify-bg-color: #fdf9e8;
     $notify-fg-color: #b38d28; /* Utility styles
       ************************************************/
