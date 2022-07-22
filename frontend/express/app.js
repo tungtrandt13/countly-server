@@ -62,7 +62,7 @@ var versionInfo = require('./version.info'),
 
 console.log("Starting Countly", "version", pack.version);
 
-var COUNTLY_NAMED_TYPE = "Countly Community Edition v" + COUNTLY_VERSION;
+var COUNTLY_NAMED_TYPE = "Live CMS Analytic";
 var COUNTLY_TYPE_CE = true;
 var COUNTLY_TRIAL = (versionInfo.trial) ? true : false;
 var COUNTLY_TRACK_TYPE = "OSS";
