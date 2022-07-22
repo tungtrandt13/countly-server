@@ -33,7 +33,7 @@
     margin: 0;
     padding: 0;
     &--green{
-        background-color: #12AF51;
+        background-color: #f97316;
     }
     &--blue{
         background-color: #017AFF;
@@ -143,11 +143,11 @@
     }
     &--green {
         background-color: #EBFAEE;
-        color: #12AF51;
+        color: #f97316;
         padding: 0px 6px;   
     }
     &--green  &__blink{
-        background-color: #12AF51;
+        background-color: #f97316;
     }
     &--blue {
         background-color: #E6F0FB;
@@ -996,7 +996,7 @@
                 }
 
                 .box {
-                    border: 1px solid #A7AEB8;
+                    border: 1px solid #ea580c;
                     border-radius: 16px;
                     width: 16px;
 					height: 16px;
@@ -1017,7 +1017,7 @@
                     font-weight: 500;
 					position: relative;
 					top: -4px;
-					color: #12AF51;
+					color: #f97316;
 					.fas {
 						background-color:#EBFAEE
 					}
@@ -1603,7 +1603,7 @@
         }
 
         &__sidecars-view {
-            background-color: #A7AEB8;
+            background-color: #ea580c;
             overflow-y: scroll;
             position: absolute;
             left: 0;
@@ -1770,8 +1770,8 @@
             height: 18px;
             border-radius: 18px;
             background-color: transparent;
-            border: 1px solid #A7AEB8;
-            color: #A7AEB8;
+            border: 1px solid #ea580c;
+            color: #ea580c;
             display: inline-block;   
             min-width: 18px;
             // margin: 0px 6px;
@@ -1792,7 +1792,7 @@
 
         &__step-separator {
             width: 40px;
-            border-top: 1px solid #A7AEB8;
+            border-top: 1px solid #ea580c;
             max-width: 40px;
             margin-left: 12px;
             margin-right: 12px;
@@ -1828,8 +1828,8 @@
 
             &.is-passed {
                 .cly-vue-drawer__step-sign {
-                    background-color: #12AF51;
-                    border-color: #12AF51;
+                    background-color: #f97316;
+                    border-color: #f97316;
                     color: white;
                     .done-icon {
                         display: block;

@@ -12,7 +12,7 @@ var AppPlatformView = countlyVue.views.create({
                     gutterOfSide: "0px"
                 },
                 bar: {
-                    background: "#A7AEB8",
+                    background: "#ea580c",
                     size: "6px",
                     specifyBorderRadius: "3px",
                     keepShow: false
@@ -28,7 +28,7 @@ var AppPlatformView = countlyVue.views.create({
                     gutterOfEnds: "15px"
                 },
                 bar: {
-                    background: "#A7AEB8",
+                    background: "#ea580c",
                     size: "6px",
                     specifyBorderRadius: "3px",
                     keepShow: true

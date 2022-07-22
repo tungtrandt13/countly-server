@@ -584,7 +584,7 @@
                                 show: false
                             },
                             lineStyle: {
-                                color: "#A7AEB8",
+                                color: "#ea580c",
                                 type: "dashed",
                                 cap: "round"
                             }
@@ -1386,7 +1386,7 @@
                         gutterOfSide: "0px"
                     },
                     bar: {
-                        background: "#A7AEB8",
+                        background: "#ea580c",
                         size: "6px",
                         specifyBorderRadius: "3px",
                         keepShow: true
@@ -1660,7 +1660,7 @@
                         gutterOfEnds: "15px"
                     },
                     bar: {
-                        background: "#A7AEB8",
+                        background: "#ea580c",
                         size: "6px",
                         specifyBorderRadius: "3px",
                         keepShow: true

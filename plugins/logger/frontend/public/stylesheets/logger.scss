@@ -20,7 +20,7 @@
   }
 
   &__tooltip {
-    color: #a7aeb8;
+    color: #ea580c;
     margin-left: 4px;
     margin-right: 24px;
   }
@@ -107,7 +107,7 @@
 
   &__refresh {
     font-size: 18px;
-    color: #a7aeb8;
+    color: #ea580c;
     margin-left: 10px;
     &--enabled {
       font-size: 14px;
@@ -127,12 +127,12 @@
 
   &__next-page {
     margin: auto;
-    border: solid 1px #a7aeb8;
+    border: solid 1px #ea580c;
     border-radius: 2px;
     &--first {
       width: 8px;
       height: 16px;
-      background-color: #a7aeb8;
+      background-color: #ea580c;
       float: left;
     }
     &--second {

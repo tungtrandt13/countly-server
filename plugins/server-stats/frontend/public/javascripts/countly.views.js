@@ -124,7 +124,7 @@ var DataPointsView = countlyVue.views.create({
                     name: CV.i18n('common.hours'),
                     nameLocation: "start",
                     nameTextStyle: {
-                        color: "#A7AEB8",
+                        color: "#ea580c",
                         padding: [0, 0, -20, 0],
                         verticalAlign: 'bottom'
                     }

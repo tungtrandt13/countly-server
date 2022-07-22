@@ -19,13 +19,13 @@
                     <el-table-column sortable="custom" prop="schedule" :label="i18n('jobs.job-schedule')">
                         <template slot-scope="scope">
                             <p>{{scope.row.scheduleLabel}}</p>
-                            <p style="color:#A7AEB8; font-size: 12px;">{{scope.row.scheduleDetail}}</p>
+                            <p style="color:#ea580c; font-size: 12px;">{{scope.row.scheduleDetail}}</p>
                         </template>
                     </el-table-column>
                     <el-table-column sortable="custom" prop="next" :label="i18n('jobs.job-next-run')">
                         <template slot-scope="scope">
                             <p>{{scope.row.nextRunDate}}</p>
-                            <p style="color:#A7AEB8; font-size: 12px;">{{scope.row.nextRunTime}}</p>
+                            <p style="color:#ea580c; font-size: 12px;">{{scope.row.nextRunTime}}</p>
                         </template>
                     </el-table-column>
                     <el-table-column sortable="custom" prop="finished" :label="i18n('jobs.job-last-run')">
